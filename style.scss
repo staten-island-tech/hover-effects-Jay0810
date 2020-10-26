@@ -1,0 +1,15 @@
+@import "_variables.scss";
+@import "_book.scss";
+@import "_summer.scss";
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+    width: 80vw;
+    margin: 2rem auto;
+}

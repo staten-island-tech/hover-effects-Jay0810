@@ -1,0 +1,10 @@
+@import "_variables.scss";
+
+.book{
+    height: 18rem;
+    width: 30rem;
+}
+.book:hover{
+    transform: translateX(100px);
+    transition: all 1s;
+}
