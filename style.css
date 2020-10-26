@@ -37,6 +37,50 @@ body {
           box-sizing: border-box;
 }
 
+.summer {
+  width: 40rem;
+  position: relative;
+}
+
+.summer-header {
+  opacity: 0;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  background-color: #ff5722;
+  margin: 1rem auto;
+  font-size: 2rem;
+  border-radius: 10rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative;
+  opacity: 0.5;
+}
+
+.btn-yellow {
+  background-color: #ff5722;
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 1;
+  color: black;
+}
+
 .box {
   display: -webkit-box;
   display: -ms-flexbox;

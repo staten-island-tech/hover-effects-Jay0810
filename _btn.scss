@@ -1,0 +1,24 @@
+@import "_variables.scss";
+
+.btn,
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    background-color:color(red);   
+    margin: 1rem auto;
+    font-size: 2rem;
+    border-radius: 10rem;
+    transition: all 0.3s;
+    position: relative;
+    opacity: 0.5;
+}
+.btn-yellow{
+    background-color: color(red);
+    color: #fff;
+}
+.btn:hover{
+    opacity: 1;
+    color: black;
+}
