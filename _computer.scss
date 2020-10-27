@@ -1,0 +1,11 @@
+@import "_variables.scss";
+
+.computer {
+    height: 20rem;
+    transition: all 0.5s;
+}
+
+.computer:hover{
+    transform: scale(1.25);
+    outline: 1rem double red;
+}

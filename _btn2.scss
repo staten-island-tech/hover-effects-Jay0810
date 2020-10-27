@@ -1,0 +1,20 @@
+@import "_variables.scss";
+
+.btn2,
+.btn2:link,
+.btn2:visited{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    background-color:color(blue);   
+    margin: 1rem auto;
+    font-size: 2rem;
+    border-radius: 10rem;
+    transition: all 0.75s;
+    position: relative;
+}
+.btn2:hover{
+    transition: all 0.75s;
+    color: white;
+    text-transform: unset;
+}

@@ -1,10 +1,17 @@
 @import "_variables.scss";
 
+.wordeffect{
+    position: relative;
+}
 .summer {
     width: 40rem;
     position: relative;
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    transition: 2s;
 }
 
-.summer-header {
+.summer:hover{
+    transition: 2s;
+    transform: translateY(25px);
     opacity: 0;
 }
