@@ -149,6 +149,14 @@ body {
   text-transform: unset;
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .box {
   display: -webkit-box;
   display: -ms-flexbox;
